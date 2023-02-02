@@ -57,6 +57,16 @@ main url = http://localhost:8000/api/
         body => محتوای جدید کامنت
     }
 
+4. Accept Comment
+    method: Post
+    sub_url: /accept
+    req param => commentId => Comment ID
+
+5. Reject Comment
+    method: Post
+    sub_url: /reject
+    req param => commentId => Comment ID
+
 ///////////////////// Finish comments Routes (sub_url => comments/) //////////////////////
 
 

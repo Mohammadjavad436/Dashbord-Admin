@@ -13,5 +13,5 @@ export default function DetailsModal({ onHide, children }) {
 
     return () => window.removeEventListener("keydown", checkKey);
   });
-  return <div className="modal-parent active">{children}</div>;
+  return <div className="modal-parent active ">{children}</div>;
 }
